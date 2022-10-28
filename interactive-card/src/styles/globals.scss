@@ -1,0 +1,99 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'space_grotesk';
+    src: url('../fonts/space_grotesk/SpaceGrotesk-VariableFont_wght.ttf');
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'space_grotesk', Arial, Helvetica, sans-serif;
+}
+
+input{
+    outline: none;
+}
+
+.--box-shadow-cards{
+    box-shadow: 5px 5px 100px rgba($color: black, $alpha: 0.1);
+}
+
+.--input{
+
+    &:focus{
+        border: solid hsl(249, 99%, 64%) 2px !important;
+    }
+
+    &.error{
+        border: solid hsl(0, 100%, 66%) 2px !important;
+    }
+
+}
+
+.--colors{
+
+    &.white{
+
+        &.bg{
+            background-color: hsl(0, 0%, 100%);
+        }
+
+        &.color{
+            color: hsl(0, 0%, 100%);
+        }
+        
+    }
+
+    &.violet-light{
+
+        &.bg{
+            background-color: hsl(270, 3%, 87%);
+        }
+
+        &.color{
+            color: hsl(270, 3%, 87%);
+        }
+
+        &.bd{
+            border: solid hsl(270, 3%, 87%) 2px;
+        }
+        
+    }
+
+    &.violet-dark{
+
+        &.bg{
+            background-color: hsl(279, 6%, 55%);
+        }
+
+        &.color{
+            color: hsl(279, 6%, 55%);
+        }
+
+        &.bd{
+            border: solid hsl(279, 6%, 55%) 2px;
+        }
+
+        &.more{
+
+            &.bg{
+                background-color: hsl(278, 68%, 11%);
+            }
+
+            &.color{
+                color: hsl(278, 68%, 11%);
+            }
+
+            &.bd{
+                border: solid hsl(278, 68%, 11%) 2px;
+            }
+
+        }
+        
+    }
+
+}
