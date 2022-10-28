@@ -1,6 +1,6 @@
 # Interactive Card
 
-Visualização do arquivo na web - [link](https://635a8b7bee58b2339eab6b71--exquisite-donut-e51225.netlify.app/)
+Visualização do arquivo na web - [link](https://635b4ac66c88d92832d7b880--willowy-beijinho-74c05b.netlify.app/)
 
 Arquivos disponibilizados pelo Frontend Mentor - brief
 Aplicação criada em Next.js - interactive-card
